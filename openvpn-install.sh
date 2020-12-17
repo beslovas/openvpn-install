@@ -471,7 +471,7 @@ else
 	echo "OpenVPN is already installed."
 	
 	# if run with --autoscript - exit (since there are no possibility to perform other actions non-interactively)
-	if [[ -z "$autoscript" ]]; then
+	if [[ -n "$autoscript" ]]; then
 		exit
 	fi
 
