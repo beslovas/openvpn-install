@@ -469,6 +469,12 @@ verb 3" > /etc/openvpn/server/client-common.txt
 else
 	clear
 	echo "OpenVPN is already installed."
+	
+	# if run with --autoscript - exit (since there are no possibility to perform other actions non-interactively)
+	if [[ -z "$autoscript" ]]; then
+		exit
+	fi
+
 	echo
 	echo "Select an option:"
 	echo "   1) Add a new client"
