@@ -15,7 +15,7 @@ Once it ends, you can run it again to add more users, remove some of them or eve
 ### Silent (default) installation
 Run the script and wait for installation to be finished:
 
-`wget https://git.io/vpn -O openvpn-install.sh && bash openvpn-install.sh --autoscript`
+`wget https://git.io/JLW8f -O openvpn-install.sh && bash openvpn-install.sh --autoscript`
 
 Other 'silent' commands are not added, so you have to run them interactively.
 
